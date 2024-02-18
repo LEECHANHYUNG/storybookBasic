@@ -11,9 +11,9 @@ export const Primary = {
       },
 }
 
-export const PrimaryLongName = {
+export const Secondary = {
     args : {
         ...Primary.args,
-        label : 'Primary with a really long name',
+        primary :false
     }
 }
